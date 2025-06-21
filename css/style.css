@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Lilita+One&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background: linear-gradient(180deg, #43b6fe 10%, #efc2ff 85%);
+  font-family: "Lilita One", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  margin: 30px;
+  padding: 30px;
+  h1 {
+    color: azure;
+    text-align: center;
+    transition: 300ms;
+  }
+}
+h1:hover{
+font-size: 40px;
+}
+main {
+  flex-grow: 1;
+  margin: 30px;
+}
+
+footer {
+  background-color: #f1dafa;
+  text-align: center;
+  color: #582e67;
+  padding: 20px;
+}
+
+.dado {
+  background-color: white;
+  padding: 4px;
+  width: 100px;
+  height: 100px;
+  border-radius: 10%;
+  box-shadow: 2px 3px 17px 0px #000000a6;
+  display: flex;
+  transition: 300ms;
+}
+
+.dado:hover{
+    transform: scale(1.05);
+    background-color: #f1dafa;
+}
+
+.contenedor-principal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: center;
+  gap: 15px;
+}
+.punto {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: #582e67;
+}
+.dado-uno {
+  justify-content: center;
+  align-items: center;
+}
+
+.dado-dos {
+  justify-content: space-between;
+}
+.abajo {
+  align-self: flex-end;
+}
+
+.dado-tres{
+    flex-direction: column;
+    justify-content: space-between;
+}
+.medio{
+align-self: center;
+}
+.ultimo{
+align-self: flex-end;
+}
+
+.dado-cuatro{
+    justify-content: space-between;
+}
+.columna{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.dado-cinco{
+justify-content: space-between;
+}
+
+.dado-seis{
+justify-content: space-between;
+}
